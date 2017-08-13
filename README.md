@@ -9,7 +9,7 @@
 
 A starter project that makes creating a TypeScript library extremely easy.
 
-### Usage2
+### Usage23
 
 ```bash
 git clone https://github.com/alexjoverm/typescript-library-starter.git YOURFOLDERNAME
