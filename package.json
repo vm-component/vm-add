@@ -1,11 +1,11 @@
 {
-  "name": "library",
+  "name": "vm-add",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "main": "dist/library.umd.js",
-  "module": "dist/library.es5.js",
-  "typings": "dist/types/library.d.ts",
+  "main": "dist/vm-add.umd.js",
+  "module": "dist/vm-add.es5.js",
+  "typings": "dist/types/vm-add.d.ts",
   "files": [
     "dist"
   ],
@@ -52,7 +52,7 @@
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "(/library/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "moduleFileExtensions": [
       "ts",
       "tsx",

@@ -1,5 +1,4 @@
 language: node_js
-dist: precise
 branches:
   only:
     - master
@@ -9,7 +8,7 @@ cache:
   directories:
     - node_modules
 notifications:
-  email: 280304286@163.com
+  email: false
 node_js:
   - '7.5'
 before_script:

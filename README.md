@@ -1,37 +1,11 @@
 # TypeScript library starter
 
-> 基于TypeScript的模块构建工具
-
-## 前言
-
-模块化已经是现在前端开发的趋势, 模块作为前端项目基石需要一套严格正规的方式进行构建和约束, 其中包括:
-
-- 静态类型检查
-- 代码风格检查
-- 测试
-- 文档
-- npm版本管理等要素.
-
-因此, 这个starter就是为这个需求而开发的脚手架.
-
-## 说明
-
-此项目fock自[typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter),因为test部分我这里需要用到浏览器的BOM对象, 故需要我的定制化修改. 因此, 此项目的技术要点如下:
-
-- TypeScript
-- TsLint(standard + prettier)
-- RollupJS
-- Karma + Mocha + Sinon
-- `*.d.ts`文件
-- CI集成(Travis && Coveralls)
-
-
-适用于以下场景:
-
-- 纯JavaScript模块
-- 依赖BOM对象的模块
-- 混合HTML/CSS/JS的组件(Vue为主)
-
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Greenkeeper badge](https://badges.greenkeeper.io/alexjoverm/typescript-library-starter.svg)](https://greenkeeper.io/)
+[![Travis](https://img.shields.io/travis/alexjoverm/typescript-library-starter.svg)](https://travis-ci.org/alexjoverm/typescript-library-starter)
+[![Coveralls](https://img.shields.io/coveralls/alexjoverm/typescript-library-starter.svg)](https://coveralls.io/github/alexjoverm/typescript-library-starter)
+[![Dev Dependencies](https://david-dm.org/alexjoverm/typescript-library-starter/dev-status.svg)](https://david-dm.org/alexjoverm/typescript-library-starter?type=dev)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/AJoverMorales)
 
 A starter project that makes creating a TypeScript library extremely easy.
 
