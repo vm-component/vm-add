@@ -1,0 +1,22 @@
+language: node_js
+dist: precise
+branches:
+  only:
+    - master
+    - /^greenkeeper/.*$/
+cache:
+  yarn: true
+  directories:
+    - node_modules
+notifications:
+  email: 280304286@163.com
+node_js:
+  - '7.5'
+before_script:
+  - npm prune && npm cache clean
+script:
+  - npm run test:prod && npm run build
+after_success:
+  - npm run report-coverage
+  - npm run deploy-docs
+  - npm run semantic-release
