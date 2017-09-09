@@ -1,7 +1,7 @@
 {
   "name": "vm-add",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Take east, this module is just for test.",
   "keywords": [],
   "main": "dist/vm-add.umd.js",
   "module": "dist/vm-add.es5.js",
@@ -12,7 +12,7 @@
   "author": "Hisang <280304286@163.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:vm-component/vm-add.git"
   },
   "license": "MIT",
   "engines": {
