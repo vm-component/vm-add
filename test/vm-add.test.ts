@@ -1,4 +1,4 @@
-import DummyClass from "../src/vm-add"
+import add from "../src/vm-add"
 
 /**
  * Dummy test
@@ -8,7 +8,7 @@ describe("Dummy test", () => {
     expect(true).toBeTruthy()
   })
 
-  it("DummyClass is instantiable", () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
+  it("1 + 1 = 2", () => {
+    expect(add(1, 1)).toBe(2)
   })
 })
