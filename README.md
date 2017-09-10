@@ -1,9 +1,5 @@
 # vm-add
 
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Travis](https://api.travis-ci.org/vm-component/vm-add.svg?branch=master)](https://www.travis-ci.org/vm-component/vm-add)
-[![Coverage Status](https://coveralls.io/repos/github/vm-component/vm-add/badge.svg?branch=master)](https://coveralls.io/github/vm-component/vm-add?branch=master)
-
 A starter project that makes creating a TypeScript library extremely easy.
 
 ### Usage
