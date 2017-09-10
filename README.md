@@ -4,17 +4,10 @@ A starter project that makes creating a TypeScript library extremely easy.
 
 ### Usage
 
-```bash
-yarn vm-add
-# or
-npm install vm-add
-```
-
 **Start coding!** `package.json` and entry files are already set up for you, so don't worry about linking to your main file, typings, etc. Just keep those files with the same names.
 
 ### Features
 
-### Excluding peerDependencies
 
 On library development, one might want to set some peer dependencies, and thus remove those from the final bundle. You can see in [Rollup docs](https://rollupjs.org/#peer-dependencies) how to do that.
 
