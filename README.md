@@ -14,7 +14,6 @@ npm install vm-add
 
 ### Features
 
-
 ### Excluding peerDependencies
 
 On library development, one might want to set some peer dependencies, and thus remove those from the final bundle. You can see in [Rollup docs](https://rollupjs.org/#peer-dependencies) how to do that.
