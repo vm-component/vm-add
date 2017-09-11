@@ -1,3 +1,3 @@
 export default {
-  a: 'master-2'
+  a: 'dev-1'
 }
