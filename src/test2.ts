@@ -1,3 +1,3 @@
 export default {
-  a: 'dev-2123123'
+  a: 'dev-cz'
 }
