@@ -1,6 +1,6 @@
 {
   "name": "vm-add",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Take east, this module is just for test.",
   "keywords": [],
   "main": "dist/vm-add.umd.js",
