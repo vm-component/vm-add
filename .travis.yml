@@ -1,8 +1,4 @@
 language: node_js
-deploy:
-  provider: npm
-  email: "280304286@163.com"
-  api_key: "3ba9856b-1f27-4d1c-80bf-69407d2546f0"
 dist: precise
 branches:
   only:
