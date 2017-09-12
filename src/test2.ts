@@ -4,4 +4,5 @@ export default {
   a3: 'dev-cz',
   a4: 'dev-cz',
   a5: 'dev-cz',
+  a6: 'dev-cz',
 }
