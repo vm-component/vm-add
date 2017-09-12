@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="4.0.5"></a>
+## [4.0.5](https://github.com/vm-component/vm-add/compare/v4.0.4...v4.0.5) (2017-09-12)
+
+
+### Bug Fixes
+
+* 增加test2.ts新参数a5 ([79c52b2](https://github.com/vm-component/vm-add/commit/79c52b2))
+
+
+
 <a name="4.0.4"></a>
 ## [4.0.4](https://github.com/vm-component/vm-add/compare/v4.0.3...v4.0.4) (2017-09-12)
 
