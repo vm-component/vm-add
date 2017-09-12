@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/vm-component/vm-add/compare/v4.0.7...v5.0.0) (2017-09-12)
+
+
+### Bug Fixes
+
+* 增加test2.ts新参数a8 ([cdfd873](https://github.com/vm-component/vm-add/commit/cdfd873))
+
+
+### Features
+
+* **test2:** 增加属性a6 ([6325caf](https://github.com/vm-component/vm-add/commit/6325caf))
+* **test2.ts:** feat: 增加属性a7 ([399cbc7](https://github.com/vm-component/vm-add/commit/399cbc7))
+
+
+### BREAKING CHANGES
+
+* **test2.ts:** no
+
+no
+
+
+
 <a name="4.0.7"></a>
 ## [4.0.7](https://github.com/vm-component/vm-add/compare/v4.0.6...v4.0.7) (2017-09-12)
 
