@@ -7,5 +7,6 @@ export default {
   a6: "dev-cz",
   a7: "dev-cz",
   a71: "dev-cz",
+  a73: "dev-cz",
   a8: "dev-cz"
 }
