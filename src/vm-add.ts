@@ -5,5 +5,5 @@ import { version } from "../package.json"
 
 export default function add(a: number, b: number) {
   console.log(version)
-  return a + b + ":" + version
+  return a + b
 }
