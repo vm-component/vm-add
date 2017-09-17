@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.2.5"></a>
+## [7.2.5](https://github.com/vm-component/vm-add/compare/v7.2.4...v7.2.5) (2017-09-17)
+
+
+
 <a name="7.2.4"></a>
 ## [7.2.4](https://github.com/vm-component/vm-add/compare/v7.2.3...v7.2.4) (2017-09-17)
 
