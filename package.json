@@ -31,7 +31,7 @@
     "commit": "git-cz",
     "npm-publish": "npm publish",
     "ci-git-push": "ts-node tools/ci-git-push",
-    "semantic-release": "semantic-release pre && ci-git-push && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && npm run ci-git-push && npm publish && semantic-release post",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "release": "standard-version",
     "precommit": "lint-staged",
