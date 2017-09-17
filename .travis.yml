@@ -9,7 +9,7 @@ cache:
   directories:
     - node_modules
 notifications:
-  email: true
+  email: '280304286@163.com'
 node_js:
   - '7.5'
 before_script:
