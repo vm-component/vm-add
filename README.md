@@ -6,6 +6,7 @@
 - test semantic-release 1522
 - test semantic-release 1655
 - test semantic-release 1659
+- test semantic-release 2208
 
 A starter project that makes creating a TypeScript library extremely easy.
 
