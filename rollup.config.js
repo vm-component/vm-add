@@ -1,6 +1,8 @@
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 import sourceMaps from 'rollup-plugin-sourcemaps'
+import json from 'rollup-plugin-json'
+
 const pkg = require('./package.json')
 const camelCase = require('lodash.camelcase')
 
@@ -9,8 +11,8 @@ const libraryName = 'vm-add'
 export default {
   entry: `compiled/${libraryName}.js`,
   targets: [
-	  { dest: pkg.main, moduleName: camelCase(libraryName), format: 'umd' },
-	  { dest: pkg.module, format: 'es' }
+    {dest: pkg.main, moduleName: camelCase(libraryName), format: 'umd'},
+    {dest: pkg.module, format: 'es'}
   ],
   sourceMap: true,
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
@@ -22,7 +24,7 @@ export default {
     // which external modules to include in the bundle
     // https://github.com/rollup/rollup-plugin-node-resolve#usage
     resolve(),
-
+    json(),
     // Resolve source maps to the original source
     sourceMaps()
   ]
