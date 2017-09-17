@@ -4,3 +4,4 @@
 // master changed
 // add
 // add 2
+function as() {}
