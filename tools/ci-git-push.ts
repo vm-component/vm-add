@@ -14,7 +14,7 @@ if (typeof pkg.repository === "object") {
 }
 
 let ghToken = process.env.GH_TOKEN
-let version = pkg.version
+let version = pkg.version;
 
 let remoteGitStore = `https://${ghToken}@github.com/${repoUrl.split(':')[1]}`
 
