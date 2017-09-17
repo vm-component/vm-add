@@ -9,7 +9,7 @@ cache:
   directories:
     - node_modules
 notifications:
-  email: false
+  email: true
 node_js:
   - '7.5'
 before_script:
@@ -19,4 +19,4 @@ script:
 after_success:
   - npm run report-coverage
   - npm run deploy-docs
-  - npm run npm-publish
+  - npm run semantic-release

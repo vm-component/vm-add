@@ -1,5 +1,8 @@
 # vm-add
 
+- test semantic-release 1412
+
+
 A starter project that makes creating a TypeScript library extremely easy.
 
 ### Usage
