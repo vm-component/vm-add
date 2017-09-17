@@ -1,6 +1,6 @@
 {
   "name": "vm-add",
-  "version": "1.0.0",
+  "version": "7.1.0",
   "description": "Take east, this module is just for test.",
   "keywords": [],
   "main": "dist/vm-add.umd.js",
@@ -30,7 +30,7 @@
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "commit": "git-cz",
     "npm-publish": "npm publish",
-    "ci-git-publish-result": "git commit -a -m 'chore(release): new version published!'; git push",
+    "ci-git-publish": "ts-node tools/git-release",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "release": "standard-version",
