@@ -27,6 +27,6 @@ exec('git config user.name "xiangsongtao"')
 exec('git config user.email "280304286@163.com"')
 exec(`git commit -m "chore(release): ${version}"`)
 exec(
-  `git push --force --quiet  "${remoteGitStore}" release/${version}`
+  `git push --force --quiet  "${remoteGitStore}" master:release/${version}`
 )
 echo("Push Done!!")
