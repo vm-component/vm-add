@@ -30,7 +30,7 @@
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "commit": "git-cz",
     "npm-publish": "npm publish",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && semantic-release post && npm publish",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "release": "standard-version",
     "precommit": "lint-staged",
