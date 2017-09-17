@@ -1,6 +1,5 @@
 const { cd, exec, echo, touch } = require("shelljs")
 const { readFileSync } = require("fs")
-const url = require("url")
 
 let repoUrl
 let pkg = JSON.parse(readFileSync("package.json") as any)
@@ -13,10 +12,9 @@ if (typeof pkg.repository === "object") {
   repoUrl = pkg.repository
 }
 
-let parsedUrl = url.parse(repoUrl)
-let repository = (parsedUrl.host || "") + (parsedUrl.path || "")
 let ghToken = process.env.GH_TOKEN
 let remoteGitStore = `https://${ghToken}@github.com/${repoUrl.split(':')[1]}`
+
 echo("Deploying docs!!!")
 cd("dist/docs")
 touch(".nojekyll")

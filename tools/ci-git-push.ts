@@ -1,4 +1,3 @@
-const path = require("path")
 const {exec, echo} = require("shelljs")
 const {readFileSync} = require("fs")
 
@@ -22,11 +21,12 @@ console.log('remoteGitStore')
 console.log(remoteGitStore)
 
 echo("Push new version to Github...")
+exec("git init")
 exec("git add .")
 exec('git config user.name "xiangsongtao"')
 exec('git config user.email "280304286@163.com"')
 exec(`git commit -m "chore(release): ${version}"`)
 exec(
-  `git push "${remoteGitStore}" master`
+  `git push --force --quiet  "${remoteGitStore}" origin master`
 )
 echo("Push Done!!")
