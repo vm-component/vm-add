@@ -13,6 +13,6 @@ exec('git config user.name "xiangsongtao"')
 exec('git config user.email "280304286@163.com"')
 exec(`git commit -m "chore(release): ${version}"`)
 exec(
-  `git push --force --quiet`
+  `git push origin master`
 )
 echo("Push Done!!")
