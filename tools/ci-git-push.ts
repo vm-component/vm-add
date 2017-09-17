@@ -18,6 +18,9 @@ let version = pkg.version;
 
 let remoteGitStore = `https://${ghToken}@github.com/${repoUrl.split(':')[1]}`
 
+console.log('remoteGitStore')
+console.log(remoteGitStore)
+
 echo("Push new version to Github...")
 exec("git add .")
 exec('git config user.name "xiangsongtao"')
