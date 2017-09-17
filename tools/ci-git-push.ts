@@ -28,6 +28,6 @@ exec('git config user.email "280304286@163.com"')
 exec(`git commit -m "chore(release): ${version}"`)
 exec(
   // `git push --force --quiet "https://${ghToken}@${repository}" master`
-  `git push --force --quiet "https://${ghToken}@git@github.com/vm-component/vm-add.git" master`
+  `git push --force --quiet "https://${ghToken}@github.com/vm-component/vm-add.git" master`
 )
 echo("Push Done!!")
