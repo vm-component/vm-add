@@ -1,17 +1,5 @@
 # vm-add
 
-- test semantic-release 1412
-- test semantic-release 1429
-- test semantic-release 1445
-- test semantic-release 1522
-- test semantic-release 1655
-- test semantic-release 1659
-- test semantic-release 2208
-- test semantic-release 2231
-- test semantic-release 2240
-- test semantic-release 2245
-- test semantic-release 1503
-
 A starter project that makes creating a TypeScript library extremely easy.
 
 ### Usage
